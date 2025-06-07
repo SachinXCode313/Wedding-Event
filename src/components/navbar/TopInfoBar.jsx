@@ -5,7 +5,7 @@ const TopInfoBar = ({isScrolled}) => {
   return (
     <div className={`${
         isScrolled 
-          ? 'bg-navbar backdrop-blur-sm py-3 border-b-[0.5px] border-white ' 
+          ? 'bg-primary backdrop-blur-sm py-3' 
           : 'bg-black/30 backdrop-blur-sm py-5'
       } text-gray-200 py-2 px-4 hidden md:block`}>
       <div className="container mx-auto flex justify-between items-center text-sm">
@@ -43,6 +43,7 @@ const TopInfoBar = ({isScrolled}) => {
         </div>
       </div>
     </div>
+    
   );
 };
 

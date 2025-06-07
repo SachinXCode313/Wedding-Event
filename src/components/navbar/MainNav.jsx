@@ -12,7 +12,7 @@ const MainNav = ({ isScrolled }) => {
     return (
         <nav
             className={`${isScrolled
-                    ? 'bg-navbar backdrop-blur-sm py-3 '
+                    ? 'bg-primary backdrop-blur-sm py-3 '
                     : 'bg-black/30 backdrop-blur-sm py-5'
                 } transition-all duration-300`}
         >
